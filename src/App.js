@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import HomoPage from './home.component';
+import HomePage from './pages/homepage/homepage.component.jsx';
 
 function App() {
   return (
     <div>
-     <HomoPage />
+      <HomePage />
     </div>
   );
 }
